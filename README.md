@@ -27,7 +27,7 @@ This project is an AI-powered tool for generating educational content such as ex
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/ai-generator.git
+git clone https://github.com/RaskoProggramer/AIContentGenerator.git
 cd ai-generator
 ```
 
@@ -44,9 +44,6 @@ Create a `.env` file in the `server/` directory:
 ```
 PORT=3000
 GEMINI_API_KEY=your_google_ai_api_key_here
-# Or for Cohere integration:
-# COHERE_API_KEY=your_cohere_api_key_here
-```
 
 > 🛑 **IMPORTANT:** Never commit your `.env` file to version control.
 
@@ -97,13 +94,3 @@ AIGenerator/
 ```
 
 ---
-
-## 📄 License
-
-This project is open source under the [MIT License](LICENSE).
-
----
-
-## 🙋‍♂️ Author
-
-Built with 💻 by [Mpho Rakgope (Rasko Ras)](https://github.com/mphorakgope)
