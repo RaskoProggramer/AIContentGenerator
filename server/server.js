@@ -25,7 +25,7 @@ app.post("/api/generate", async (req, res) => {
   const headers = {
     'Authorization': `Bearer ${process.env.OPENROUTER_API_KEY}`,
     'Content-Type': 'application/json',
-    'HTTP-Referer': 'http://localhost:3000',  // optional, customize if needed
+    'HTTP-Referer': 'https://airesumegenerator.onrender.com',  // optional, customize if needed
     'X-Title': 'Resume Generator App'
   };
 
