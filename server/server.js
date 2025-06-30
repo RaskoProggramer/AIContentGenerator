@@ -16,7 +16,7 @@ app.get("/", (req, res) => {
 const GOOGLE_API_KEY = process.env.GOOGLE_API_KEY;
 const GEMINI_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GOOGLE_API_KEY}`;
 
-app.post("/generate", async (req, res) => {
+app.post("/api/generate", async (req, res) => {
   const { prompt } = req.body;
 
   if (!prompt) {
